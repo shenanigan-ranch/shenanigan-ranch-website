@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Shenanigan Ranch LLC for snakes, chicken eggs, chicken feed, and catering in Utah."
+    />
+    <title>Shenanigan Ranch | Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&family=Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="page-glow" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Shenanigan Ranch home page">
+        <img src="assets/banner.png" alt="Shenanigan Ranch logo banner" class="brand-logo" />
+        <span class="brand-copy">
+          <span class="brand-text">Shenanigan Ranch LLC</span>
+          <span class="brand-slogan">Satchmo Chicken</span>
+        </span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        Menu
+      </button>
+      <nav id="main-nav" class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-intro">
+        <p class="eyebrow">Reach Out</p>
+        <h1>Order Products or Request Catering</h1>
+        <p>
+          Contact us for snake availability, egg and feed orders, or catering requests anywhere in
+          the Utah area.
+        </p>
+      </section>
+
+      <section class="contact-layout">
+        <form class="contact-form" id="contact-form">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button class="btn btn-primary" type="submit">Send Message</button>
+          <p class="small-note">This opens a prefilled email draft to hello@shenaniganranch.com.</p>
+        </form>
+
+        <aside class="contact-card">
+          <h2>Contact Details</h2>
+          <p>Email: hello@shenaniganranch.com</p>
+          <p>Phone: (555) 555-0199</p>
+          <p>Location: Utah area</p>
+          <p class="small-note">Tell us which products or services you need and your preferred timing.</p>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        <span id="year"></span> Shenanigan Ranch LLC. All rights reserved.
+      </p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

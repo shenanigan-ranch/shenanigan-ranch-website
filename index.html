@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Shenanigan Ranch LLC sells snakes, chicken eggs, chicken feed, provides catering, and offers an information tracker app in Utah."
+    />
+    <title>Shenanigan Ranch | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&family=Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="page-glow" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Shenanigan Ranch home page">
+        <img src="assets/banner.png" alt="Shenanigan Ranch logo banner" class="brand-logo" />
+        <span class="brand-copy">
+          <span class="brand-text">Shenanigan Ranch LLC</span>
+          <span class="brand-slogan">Satchmo Chicken</span>
+        </span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        Menu
+      </button>
+      <nav id="main-nav" class="site-nav" aria-label="Main navigation">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Utah Snakes and Eggs</p>
+        <h1>Welcome to Shenanigan Ranch</h1>
+        <p>
+          Shenanigan Ranch LLC serves customers across Utah with healthy snakes, farm-fresh
+          chicken eggs, quality chicken feed, and catering for events of all sizes.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="contact.html">Order Products or Request Catering</a>
+          <a class="btn btn-secondary" href="downloads/ShenaniganRanchInstaller.exe" download>Download Info Tracker App (.exe)</a>
+          <a class="btn btn-secondary" href="about.html">Our Story</a>
+        </div>
+      </section>
+
+      <section class="cards" aria-label="Ranch highlights">
+        <article class="card">
+          <h2>Snakes</h2>
+          <p>We offer responsibly raised snakes with clear care guidance and dependable service.</p>
+        </article>
+        <article class="card">
+          <h2>Eggs and Feed</h2>
+          <p>Fresh chicken eggs and quality chicken feed for homes, farms, and local operations.</p>
+        </article>
+        <article class="card">
+          <h2>Catering</h2>
+          <p>From family celebrations to business events, we cater throughout the Utah area.</p>
+        </article>
+      </section>
+
+      <section class="app-download" aria-label="Information tracker app download">
+        <h2>Information Tracker App</h2>
+        <p>
+          Track your animals with the Information Tracker App, keep everything in one place, highly customizable.
+        </p>
+        <a class="btn btn-primary" href="downloads/ShenaniganRanchInstaller.exe" download>
+          Download Information Tracker App (.exe)
+        </a>
+        <p class="small-note">Windows installer download for the Shenanigan Ranch information tracker app.</p>
+        <p class="small-note">You must purchase a read-only GitHub access token before setup.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        <span id="year"></span> Shenanigan Ranch LLC. All rights reserved.
+      </p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
