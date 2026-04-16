@@ -195,6 +195,41 @@ h2 {
   gap: 1rem;
 }
 
+.events-section {
+  margin-top: 1.3rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.events-header h2,
+.event-card h3 {
+  margin-bottom: 0.35rem;
+}
+
+.event-card {
+  background: linear-gradient(135deg, rgba(36, 68, 55, 0.96), rgba(36, 68, 55, 0.88));
+  color: var(--cream);
+  border: 1px solid rgba(255, 251, 239, 0.16);
+  border-radius: var(--radius);
+  padding: 1.2rem;
+  box-shadow: var(--shadow);
+  animation: liftIn 0.7s ease-out both;
+}
+
+.event-card .btn-secondary {
+  border-color: rgba(255, 251, 239, 0.55);
+  color: var(--cream);
+}
+
+.event-date,
+.event-location {
+  font-weight: 700;
+}
+
+.event-card p:last-of-type {
+  margin-bottom: 1rem;
+}
+
 .cards {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -223,6 +258,22 @@ h2 {
 
 .app-download p {
   margin-bottom: 0.9rem;
+}
+
+.tutorial-video-block {
+  margin-top: 1.1rem;
+}
+
+.tutorial-video-block h3 {
+  margin-bottom: 0.45rem;
+}
+
+.tutorial-video {
+  display: block;
+  width: min(100%, 760px);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: #000;
 }
 
 .content-grid {
